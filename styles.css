@@ -1,0 +1,21 @@
+header {
+  max-width: 1495px;
+  min-height: 91px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 22px;
+  background-color: #0a22f4;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 36px;
+}
+.header-nav-li {
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+button {
+  width: 160px;
+  height: 55px;
+  margin-left: 36px;
+}
