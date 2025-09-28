@@ -1,7 +1,24 @@
+@import url("https://cdn.web-fonts.ge/fonts/bpg-le-studio-02-caps/css/bpg-le-studio-02-caps.min.css");
+
+@font-face {
+  font-family: "KA_LORTKIPANIDZE";
+  src: url("../fonts/ka-lortkipanidze-webfont.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/ka-lortkipanidze-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/ka-lortkipanidze-webfont.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/ka-lortkipanidze-webfont.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../fonts/ka-lortkipanidze-webfont.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/ka-lortkipanidze-webfont.svg#ka_lortkipanidzeregular")
+      format("svg"); /* Legacy iOS */
+}
+
 header {
   max-width: 1495px;
   min-height: 91px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 0 auto;
   margin-top: 22px;
   background-color: #0a22f4;
@@ -13,6 +30,7 @@ header {
   color: #ffffff;
   font-size: 16px;
   text-align: left;
+  font-family: "BPG LE Studio 02 Caps", sans-serif;
 }
 button {
   width: 160px;
@@ -23,6 +41,7 @@ section {
   max-width: 1495px;
   margin: 0 auto;
   margin-top: 200px;
+  font-family: "KA_LORTKIPANIDZE";
 }
 h2 {
   font-size: 32px;
